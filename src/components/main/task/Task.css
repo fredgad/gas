@@ -1,0 +1,43 @@
+.Task {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    background: #f6f6f6;
+    height: auto;
+}
+input {
+    transform: translateY(3px);
+}
+.TaskTest {
+    max-width: 80vw;
+
+}
+.TaskEdit {
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+    color: #222;
+    font-weight: 700;
+}
+.TaskEdit:hover  {
+    transform: scale(1.25)
+}
+.TaskDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    height: 100%;
+    top: 0;
+    background: gold;
+    color: #fff;
+    width: 40px;
+    cursor: pointer;
+}
+.TaskDelete:hover {
+    color: #000;
+}

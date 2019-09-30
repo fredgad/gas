@@ -1,0 +1,11 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 100vw;
+    background: #222;
+    color: #fff;
+    font-size: 30px;
+
+}
